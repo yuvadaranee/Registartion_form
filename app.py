@@ -44,7 +44,7 @@ def users():
         return render_template('users.html',userDetails=userDetails)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0',port=5000)
     
     
     
